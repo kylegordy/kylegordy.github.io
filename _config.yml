@@ -2,6 +2,7 @@ title: Kyle Gordy
 email: kyle@kgordy.com
 description: >-
   I'm a freelance UI designer and front-end web developer working remotely.
+url: https://kgordy.com
 
 # Build Settings
 markdown: kramdown
@@ -18,6 +19,9 @@ compress_html:
   blanklines: false
 
 plugins:
+  - jekyll-redirect-from
+
+whitelist:
   - jekyll-redirect-from
 
 collections:
